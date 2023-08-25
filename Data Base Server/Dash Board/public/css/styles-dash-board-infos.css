@@ -1,0 +1,28 @@
+@import url('/css/styles-dash-board.css');
+
+.sub-content {
+  margin-top: 1.25vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.scroll-text {
+  height: 80%;
+  width: 80%;
+  padding: 10px;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.scroll-text p {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  font-size: 2vh;
+  font-weight: 500;
+  text-shadow: none;
+}

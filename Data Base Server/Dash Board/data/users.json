@@ -1,0 +1,12 @@
+[
+  {
+    "name": "admin",
+    "key": "test",
+    "image": "path_to_img_01.jpg"
+  },
+  {
+    "name": "freddy",
+    "key": "test",
+    "image": "path_to_img_02.jpg"
+  }
+]

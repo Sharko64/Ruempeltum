@@ -1,0 +1,76 @@
+@import url('/css/styles-dash-board.css');
+
+.sub-content {
+  margin-top: 1.25vh;
+  height: 59.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month-list {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  flex: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+ul li {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+li {
+  font-size: 3vh;
+  transition: opacity 0.15s, background-color 0.15s, border-radius 0.15s;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.15s, background-color 0.15s, border-radius 0.15s;
+  cursor: pointer;
+  opacity: 0.75;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+li:active {
+  color: black;
+  text-decoration: none;
+  transition: opacity 0.15s, background-color 0.15s, border-radius 0.15s;
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+@media (orientation: landscape) {
+  ul {
+    column-count: 2;
+    column-gap: 20px;
+  }
+}
+
+@media (orientation: portrait) {
+  ul {
+    height: 100%;
+    overflow-y: auto;
+  }
+}

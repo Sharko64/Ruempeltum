@@ -1,0 +1,151 @@
+@import url('/css/styles.css');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  height: 85vh;
+  width: 90vw;
+  border-radius: 10px;
+  border: 2.5px solid black;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.content p {
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: 6vh;
+  font-size: 3.5vh;
+  font-weight: 700;
+  text-shadow: 2.5px 2.5px 7.5px rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top: 1.25vh;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2.5px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 2.5vh;
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.15s;
+}
+
+.navbar a:hover {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2.5px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 2.5vh;
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.navbar a:active {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2.5px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 2.5vh;
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.sub-content {
+  margin-top: 1.25vh;
+  height: 59.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-buttons {
+  margin-top: 1.25vh;
+  margin-bottom: 1.25vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-buttons a {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 2.5vh;
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.15s, font-size 0.15s;
+}
+
+.nav-buttons a:hover {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 3vh;
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.15s, font-size 0.15s;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.nav-buttons a:active {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 3vh;
+  text-decoration: none;
+  color: black;
+  transition: opacity 0.15s, font-size 0.15s;
+  cursor: pointer;
+  opacity: 0.5;
+}

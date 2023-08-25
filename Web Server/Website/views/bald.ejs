@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rümpeltum - Bald</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/static/icon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/styles-bald.css">
+  </head>
+  <body>
+    <div class="title-img">
+      <a href="/">
+        <img src="images/static/title_image.png" alt="Titelbild kann nicht geladen werden :,(º">
+      </a>
+    </div>
+    <div class="pattern">
+      <% for (let i = 1; i <= 180; i++) { %>
+        <img src="images/static/pattern.jpg" alt="No pattern found.">
+      <% } %>
+    </div>
+    <nav>
+      <div class="navbar">
+        <div>
+          <a href="/aktuell">Aktuell</a>
+        </div>
+        <div>
+          <a href="/bald">Bald</a>
+        </div>
+        <div>
+          <a href="/infos">Infos</a>
+        </div>
+      </div>
+    </nav>
+    <div class="pattern">
+      <% for (let i = 1; i <= 180; i++) { %>
+        <img src="images/static/pattern.jpg" alt="No pattern found.">
+      <% } %>
+    </div>
+    <main>
+      <header>
+        <h1>Bald</h1>
+      </header>
+      <section>
+        <div class="events">
+          <% events[1].forEach(event => { %>
+            <div class="event">
+              <h2><%= event.Day %></h2>
+              <img src="images/dynamic/<%= event.Flyer %>" alt="Flyer not found.">
+            </div>
+          <% }) %>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <hr>
+          <h3>Rümpeltum Kollektiv &#9773;</h3>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

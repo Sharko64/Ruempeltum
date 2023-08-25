@@ -1,0 +1,39 @@
+@import url("/css/styles.css");
+
+.sticker {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticker img {
+  max-width: 90vw;
+  max-height: 60vh;
+}
+
+.alerts {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert {
+  width: 90vw;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: lightgrey;
+}
+
+.alert h2 {
+  padding-top: 10px;
+  font-size: 24px;
+}
+
+.alert p {
+  padding: 10px;
+  font-size: 18px;
+}
